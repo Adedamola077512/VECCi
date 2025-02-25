@@ -1,0 +1,49 @@
+.vecci {
+    width: 100px;
+    text-align: center;
+    /* border: 1px solid  #830B90; */
+    text-shadow: 2px 2px 2px #830B90;
+    border: 5px solid transparent;
+    border-image: linear-gradient(40deg, #0b0327, #42054D);
+    border-image-slice: 1;
+}
+.vec {
+    /* border-bottom: px solid #830B90; */
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.2), 
+    0 4px 15px 0px rgba(66, 5, 77, 0.5);
+    background: linear-gradient(135deg, #0b0327, #42054D);
+    border-bottom: 1.5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( #830B90 28%, #685CF4 50%);
+}
+
+.primary {
+    background: linear-gradient(90deg, #830B90 0%, #685CF4 50%);
+    border: none;
+    border-radius: 0;
+    font: bold;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+.home{
+    color: #fff;
+}
+.home:hover{
+    color: #830B90;
+}
+.primary:hover {
+    background: linear-gradient(45deg, #42054D, #0b0327);
+  }
+/* Increase the gap between navigation links */
+.nav-gap .nav-link {
+    margin-right: 20px;  /* Adjust the gap as needed */
+  }
+@media screen and (max-width: 768px) {
+    .primary{
+        /* margin-left: 200px; */
+        display: none;
+    }
+    .vec {
+        top: 0;
+    }
+}

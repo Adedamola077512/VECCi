@@ -1,0 +1,63 @@
+.a-link{
+    text-decoration: none;
+    color: white;
+}
+.hr {
+    border-top: 2px dashed #ff7e5f;
+}
+.footer {
+    margin-top: 100px;
+}
+.FaLocationDot {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -15px;
+    /* float: left; */
+}
+.CiMail {
+    color: white;
+    font-size: 25px;
+    margin-right: 35px;
+    /* margin-right: 10px; */
+}
+.Intershore{
+    line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+        margin-left: -50px;
+    }
+    .footer{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .up{
+        margin-top: -30px;
+    }
+    .foot{
+        flex-direction: column;
+        margin-left: -20px;
+    }
+    .gri{
+        margin-left: -27vb;
+    }
+    .FaLocationDot{
+        margin-top: -15px;
+        font-size: 30px;
+    }
+    .road{
+        margin-left: -30px;
+    }
+    .Intershore{
+        line-height: 18px;
+        font-size: 15;
+    }
+    .CiMail{
+        margin-right: 15px;
+    }
+    
+}

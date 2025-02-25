@@ -1,0 +1,65 @@
+.art-work{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+    align-items: center;
+}
+.work {
+    display: flex;
+    gap: 50px;
+}
+/* Container Styles */
+.countdown-card {
+    background: linear-gradient(145deg, #0b0327, #42054D);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 400px;
+  }
+  
+  /* Time Box Styles */
+  .time-box .time {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  /* Button Styles */
+  .purchase-btn {
+    background: linear-gradient(45deg, #0061ff, #60efff);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .purchase-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .bid-btn {
+    background: linear-gradient(45deg, #d53369, #daae51);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .bid-btn:hover {
+    opacity: 0.8;
+  }
+@media screen and (max-width: 768px) {
+    .art-work {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .countdown-card{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+}

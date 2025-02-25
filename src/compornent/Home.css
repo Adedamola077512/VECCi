@@ -1,0 +1,48 @@
+.world {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72.61px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.flow {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.home-con{
+    margin-top: 100px;
+}
+.vector1 {
+    width: 220px;
+    /* display: block; */
+    height: 40px;
+}
+.vector2 {
+    /* width: 220px; */
+    /* display: block; */
+    /* width: 220px; */
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .world {
+        font-size: 40px;
+        line-height: 40px;
+        /* font-weight: 500; */
+    }
+    .flow {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    marquee{
+        display: none;
+    }
+
+}
