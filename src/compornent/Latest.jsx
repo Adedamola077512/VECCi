@@ -1,9 +1,9 @@
 import React from 'react'
 import './Latest.css'
 // import image from asserts
-import vector9 from '../assets/vector9.png'
-import vector10 from '../assets/vector10.png'
-import vector11 from '../assets/vector11.png'
+import vector9 from '../assets/Vector9.png'
+import vector10 from '../assets/Vector10.png'
+import vector11 from '../assets/Vector11.png'
 const Latest = () => {
   return (
     <div className='container text-white' style={{marginTop: "100px"}}>
